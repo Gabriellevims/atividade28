@@ -11,8 +11,12 @@ for i in range(3):
     idade2=  (x[0]) -idade 
     if idade2 >= 18:
         idademaior.append(idade2)
-        nmaior= len(idademaior)
+        n= len(idademaior)
+      
+        
     else:
         idademenor.append(idade2)
-        nmenor = len(idademaior)
-print(f"O número de pessoas que são maior de idade é {nmaior}.\n O número de pessoas que são menor de idade é {nmenor}")
+        m=len(idademenor)
+        
+print(m)
+print(n)
